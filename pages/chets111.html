@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html  lang="he">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='chetStyle.css'>
+</head>
+
+<body>
+    <div id="main">
+        <div id="header">
+            <p id="sundUser"></p>
+            <img src="conect2.png" alt="">
+        </div>
+        <div id="said">
+            <div id="headerAside">
+            <h1>chats</h1>
+            <div id="addChat2">
+                <div id="tel">+972-<input id="fon" type="tel" onkeydown="addChat(event)"/></div>
+            </div>
+            </div>
+            <div id="search">
+                <img src="img2.png" alt="">
+                <input  id="searchInpt" class="search-inpt" type="search"
+                placeholder="Search product by name">
+            </div>
+            
+            <div id="chatsUser">
+                
+            </div>
+        </div>
+        <div onclick="fileNotShow()" id="content" class="message-container">
+        </div>
+        <div id="send">
+            <div id="red">
+                <p id="time"></p>
+                <button id="stopButton">Stop</button>
+        
+            </div>
+            <img src="m.png" alt="" onclick="start1()">
+            <input id="contentSend" type="text"dir="auto" lang="auto" placeholder="Type a message here" onkeydown="handleKeyDown(event)">
+            <input type="file"   name="file" id="file" class="inputfile" />
+            <label for="file" id="label">
+                <div id="showFile">
+                    <img src="#" id="hwoe" alt="">
+                    <button onclick="sedff()">
+                    <img src="sebdfiile2.png" alt="">
+                    </button>
+                </div>
+            </label>
+            <!-- <img for="file" src="addFile.png" alt=""> -->
+            <img src="smail.png" alt="">
+        </div>
+        <script src='chatsScript.js'></script>
+    </body>
+    
+</html>

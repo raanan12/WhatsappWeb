@@ -1,0 +1,11 @@
+#tel{
+    border: 1px gray solid;
+    height: 20px;
+    width: 240px;
+}
+#tel > input{
+    border: none;
+    border-left: 2px solid gray;
+    outline: none;
+    margin-left: 20px;
+}
